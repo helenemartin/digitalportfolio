@@ -18,9 +18,9 @@
 }
 
 .item img {
-    position: relative;
+    position: absolute;
     top: 0;
-    left: 50px;
+    left: 100px;
     min-height: 300px;
 }
 
