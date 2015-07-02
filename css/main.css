@@ -7,6 +7,9 @@
 	 width: 50%;
 }
 
+.banner img {
+  width: 100%;
+}
 .carousel-inner .carousel-caption {
 
     padding: 5px;
@@ -19,13 +22,13 @@
   height: 500px;
 }
 
-.item img {
+/*.item img {
     position: absolute;
     top: 0;
     left: 350px;
     width: 50%;
 }
-
+*/
 .marketing .row {
 	text-align: center;	
 }
