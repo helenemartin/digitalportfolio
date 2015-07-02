@@ -21,7 +21,7 @@
     position: absolute;
     top: 0;
     left: 350px;
-    min-height: 300px;
+    width: 100%;
 }
 
 .marketing .row {
