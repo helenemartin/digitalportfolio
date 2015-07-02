@@ -2,11 +2,11 @@
 =MAIN STYLES  
 -----------------------------------------------------------------------------*/
 
-/*.banner img {
+.banner  {
  
-	 width: 100%;
+	 width: 50%;
 }
-*/
+
 .carousel-inner .carousel-caption {
 
     padding: 5px;
