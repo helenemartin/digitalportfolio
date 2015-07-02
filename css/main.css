@@ -6,8 +6,8 @@
 	 width: 100%;
 }
 
-/*.carousel-inner */.carousel-caption {
-
+.carousel-inner .carousel-caption {
+    position: relative;
     background-color: #525D72;
     opacity: 0.5;
     border-radius: 5px;
