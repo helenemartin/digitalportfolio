@@ -7,14 +7,14 @@
 }
 
 .carousel-inner .carousel-caption {
-    position: relative;
+
     background-color: #525D72;
     opacity: 0.5;
     border-radius: 5px;
 }
 .carousel-inner {
   width:100%;
-  max-height: 600px !important;
+  max-height: 800px !important;
 }
 
 .marketing .row {
