@@ -6,13 +6,13 @@
 	 width: 100%;
 }
 
-.carousel-inner .carousel-caption {
+/*.carousel-inner */.carousel-caption {
 
     background-color: #525D72;
     opacity: 0.5;
     border-radius: 5px;
 }
-.carousel-inner{
+.carousel-inner {
   width:100%;
   max-height: 600px !important;
 }
