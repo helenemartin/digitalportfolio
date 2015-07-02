@@ -9,6 +9,7 @@
 */
 .carousel-inner .carousel-caption {
 
+    padding: 5px;
     background-color: #525D72;
     opacity: 0.5;
     border-radius: 5px;
