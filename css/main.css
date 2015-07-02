@@ -53,6 +53,9 @@
 strong {
   color: #FF00FF;
 }
+a {
+  text-decoration: none;
+}
 
 footer {
 	background: url('../images/grey-texture.jpg');
