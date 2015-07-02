@@ -2,11 +2,11 @@
 =MAIN STYLES  
 -----------------------------------------------------------------------------*/
 
-.banner img {
+/*.banner img {
  
 	 width: 100%;
 }
-
+*/
 .carousel-inner .carousel-caption {
 
     background-color: #525D72;
@@ -14,13 +14,13 @@
     border-radius: 5px;
 }
 .carousel .item {
-  height: 300px;
+  height: 500px;
 }
 
 .item img {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50px;
     min-height: 300px;
 }
 
