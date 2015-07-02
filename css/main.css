@@ -3,8 +3,16 @@
 -----------------------------------------------------------------------------*/
 
 .banner img {
-	 width: 100%;
+	 width: 80%;
 }
+
+.carousel-inner .carousel-caption {
+
+    background-color: #525D72;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
 
 .marketing .row {
 	text-align: center;	
