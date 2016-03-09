@@ -65,6 +65,10 @@
   width: 80%;
 }
 
+.lead p {
+  text-align: justify;
+}
+
 .qr img {
   width: 70%;
 }
