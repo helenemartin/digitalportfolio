@@ -57,6 +57,14 @@
 	margin: 50px 0;
 }
 
+.portrait img {
+  width: 80%;
+}
+
+.qr img {
+  width: 70%;
+}
+
 strong {
   color: #f32e34;
 }
