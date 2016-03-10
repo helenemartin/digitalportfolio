@@ -12,6 +12,9 @@
 .banner img {
   width: 100%;
 }
+.carousel-inner{
+  height: 420px;
+}
 .carousel-inner .carousel-caption {
 
     padding: 5px;
