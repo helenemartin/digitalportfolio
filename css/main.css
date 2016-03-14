@@ -56,7 +56,7 @@ h2 {
   line-height: 1;
   letter-spacing: -1px;
 }
-h2 .featurette {
+.featurette h2{
   text-align: left;
 }
 
