@@ -43,6 +43,10 @@ h2 {
 	text-align: center;	
 }
 
+.row {
+  padding-left: 25px;
+}
+
 .navbar {
 	margin-bottom: 0; /* removes default excess margin */
 }
