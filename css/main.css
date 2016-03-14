@@ -56,8 +56,14 @@ h2 {
   line-height: 1;
   letter-spacing: -1px;
 }
+
 h2.featurette-heading {
   text-align: left;
+}
+
+.col-md-7 {
+  margin-top: 50px;
+  padding-left: 35px;
 }
 
 .companies h3 {
