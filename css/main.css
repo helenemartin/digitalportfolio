@@ -66,7 +66,6 @@ h2.featurette-heading {
 }
 
 .col-md-7 {
-  margin-top: 80px;
   padding-left: 60px;
 }
 
@@ -83,7 +82,8 @@ h2.featurette-heading {
 }
 
 .portrait img {
-  width: 80%;
+  width: 50%;
+  margin-right: 5px;
 }
 
 p.lead {
@@ -106,4 +106,14 @@ a {
 footer {
 	background: url('../images/grey-texture.jpg');
 	padding: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+  .portrait img {
+    width: 30%;
+  }
+  .col-md-7 {
+    padding-top: -20px;
+    padding-right: 80px;
+  }
 }
