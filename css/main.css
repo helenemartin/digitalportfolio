@@ -108,6 +108,8 @@ footer {
 	padding: 40px;
 }
 
+
+
 @media only screen and (max-width: 991px) {
   .portrait img {
     width: 30%;
@@ -116,4 +118,5 @@ footer {
     padding-top: -20px;
     padding-right: 80px;
   }
+
 }
