@@ -33,11 +33,11 @@ h2 {
 
 }
 .carousel-indicators li {
-  border-color: #000;
+  border-color: #aaa7ae;
 }
 
 .carousel-indicators li.active {
-  background-color: #000;
+  background-color: #aaa7ae;
 }
 
 
