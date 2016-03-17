@@ -2,6 +2,16 @@
 =MAIN STYLES  
 -----------------------------------------------------------------------------*/
 
+/*
+body {
+  background: url('../images/Qrschema.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+    
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}*/
+
 .banner  {
   margin: 0 auto;
   margin-top: 50px;
