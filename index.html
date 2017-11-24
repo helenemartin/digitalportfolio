@@ -10,13 +10,24 @@
     <link rel="shortcut icon" href="images/favicon2.gif"> 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
+
+
+    <!-- NAVBAR --> 
     <div class="navbar navbar-default">
       <div class="container">
-          <h1><a class="navbar-brand" href="#">Hélène Martin</a></h1>
+          <a class="navbar-brand" href="#">Hélène Martin</a>
 
           <ul class="nav navbar-nav pull-right">
             <li><a href="mailto:helenemartin@hotmail.com"><i class="fa fa-envelope-o"></i> Email Me</a></li>
@@ -24,11 +35,19 @@
             <li><a href="https://www.linkedin.com/pub/h%C3%A9l%C3%A8ne-martin/87/24a/573" target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
           </ul>
 
-      </div> 
-    </div>
+      </div><!-- .container --> 
+    </div><!-- .navbar --> 
+    <!-- START THE FEATURETTES -->
+
+
+    <!-- CAROUSEL --> 
     <div class="banner">
 
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+       
+
+        <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
             <img src="images/qrworked.jpg" alt="QR Sign">
@@ -78,13 +97,15 @@
                 <h2><a href="https://epinglette.herokuapp.com/" target=_"blank"><strong>Epinglette</strong></a>, pin single view, a different colour for a given category.</h2>
             </div>
           </div>
-        </div>
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+        </div><!-- .carousel-inner --> 
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
          <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -95,11 +116,15 @@
           <li data-target="#carousel-example-generic" data-slide-to="6"></li>
           <li data-target="#carousel-example-generic" data-slide-to="7"></li>
         </ol>
-      </div>
-    </div>
+      </div><!-- .carousel --> 
+    </div><!-- .banner --> 
+
+    
+
 
     <div class="container marketing">
    
+      <!-- START THE FEATURETTES -->
       <hr class="divider">
 
        <div class="row">   
@@ -116,13 +141,21 @@
          </div>    
        </div>  
 
-   </div>
+   </div><!-- /.container --> 
 
+      
+
+    <!-- FOOTER -->
     <footer>
       <p class="pull-right"><a href="#">Back to top</a></p>
       <p>Made by<a href="https://github.com/helenemartin" target="_blank"> Hélène Martin </a>© 2017</p>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
