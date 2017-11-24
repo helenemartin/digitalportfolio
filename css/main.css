@@ -11,12 +11,27 @@ body {
   background-position: center;
   background-attachment: fixed;
 }*/
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway');
 .banner  {
   margin: 0 auto;
   margin-top: 50px;
   
 	 width: 80%;
+}
+
+h1 a {
+  color:black;
+  font-family: 'Libre Baskerville', cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color:black;
+}
+a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 {
