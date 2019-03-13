@@ -24,7 +24,8 @@ h1 {
   font-family: 'Libre Baskerville', cursive;
   text-transform: capitalize;
   text-decoration: none;
-  font-size: 1.8em;
+  text-align: center;
+  font-size: 2em;
   font-style: bold;
 }
 
