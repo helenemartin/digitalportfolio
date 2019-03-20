@@ -12,11 +12,16 @@ body {
   background-attachment: fixed;
 }*/
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway');
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+
+}
 .banner  {
   margin: 0 auto;
-  margin-top: 50px;
-  
-	 width: 80%;
+  padding-top: 150px;
 }
 
 h1 {
@@ -86,6 +91,8 @@ h2 {
 
 h2.featurette-heading {
   text-align: left;
+  font-size: 35px;
+  font-weight: 400;
 }
 
 .col-md-7 {
@@ -112,7 +119,7 @@ h2.featurette-heading {
 
 p.lead {
   text-align: justify;
-  font-size: 12px;
+  font-size: 25px;
 }
 
 .qr img {
