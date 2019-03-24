@@ -43,21 +43,31 @@ h2 {
 
 .sand {
   position: relative;
-  width: 245%;
+  background: url(https://media.giphy.com/media/EXHXTLY7ntczK/giphy.gif);
+ /* min-width: 500%;
+  height: 500%;*/
+  padding: 15%;
   opacity: 0.9;
+  z-index: -1;
+  
 }
 
-/*.sand-title {
-  position: absolute;
-  background-color: red;
+
+
+.sand-title {
+  position: relative;
   color: white;
   font-size: 2em;
-  z-index: -10;
+  z-index: 1;
   text-align: center;
-}*/
-.carousel-inner{
-  /*height: 450px;*/
+  border: 2px solid #fff;
+  border-radius: 5px;
+  
 }
+
+/*.carousel-inner{
+  height: 450px;
+}*/
 .carousel-caption {
 
     padding: 5px;
