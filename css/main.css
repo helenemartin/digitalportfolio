@@ -43,13 +43,12 @@ h2 {
 }
 
 .sand {
-  position: relative;
+  /*position: relative;*/
   background: url(https://media.giphy.com/media/EXHXTLY7ntczK/giphy.gif);
- /* min-width: 500%;
-  height: 500%;*/
-  padding: 15%;
+  padding: 19%;
   opacity: 0.9;
   z-index: -1;
+  bottom: 0;
   
 }
 
@@ -66,9 +65,9 @@ h2 {
   
 }
 
-.carousel-inner{
+/*.carousel-inner{
   z-index: -1;
-}
+}*/
 .carousel-caption {
     z-index: auto;
     padding: 5px;
@@ -76,9 +75,10 @@ h2 {
     opacity: 0.7;
     border-radius: 5px;
     font-size: 2.5rem;
+
 }
 
-.carousel > .item {
+/*.carousel > .item {
   z-index: auto;
 
 .carousel-inner > .item {
@@ -86,8 +86,8 @@ h2 {
 }
 
 .carousel .item {
-  /*height: 500px;*/
-}
+  height: 500px;
+}*/
 /*.carousel .item {
   z-index: -1;
 }*/
@@ -143,7 +143,7 @@ h2.featurette-heading {
 
 .item img {
   margin: 0 auto;
-  max-height: 40vw;
+  max-height: 50vw;
 }
 
 .companies img {
@@ -166,7 +166,7 @@ p.lead {
 
 strong {
   color: #f32e34;
-  z-index: 3;
+  
 }
 
 a {
