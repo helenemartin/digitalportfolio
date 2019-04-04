@@ -45,24 +45,18 @@ h2 {
 .sand {
   position: relative;
   background: url(https://media.giphy.com/media/EXHXTLY7ntczK/giphy.gif);
-  max-width: 100%;
-  opacity: 0.9;
-  height: 100%;
-  /*z-index: -1; */
+  opacity: 0.9;  
 }
-
 
 
 .sand-title {
   position: relative;
   color: white;
   font-size: 2em;
-  padding: 20%;
   text-align: center;
   border: 2px solid #fff;
-  border-radius: 5px;
-  /*z-index: 0;*/
-  
+  border-radius: 5px; 
+  min-height: 465px;   
 }
 
 
