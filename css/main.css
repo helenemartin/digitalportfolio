@@ -45,7 +45,7 @@ h2 {
 .sand {
   position: relative;
   background: url(https://media.giphy.com/media/EXHXTLY7ntczK/giphy.gif);
-  padding: 19%;
+  max-width: 100%;
   opacity: 0.9;
   height: 100%;
   /*z-index: -1; */
@@ -57,16 +57,18 @@ h2 {
   position: relative;
   color: white;
   font-size: 2em;
-  z-index: -1;
+  padding: 20%;
   text-align: center;
   border: 2px solid #fff;
   border-radius: 5px;
+  /*z-index: 0;*/
   
 }
 
-/*.carousel-inner{
-  z-index: -1;
-}*/
+
+.carousel-inner{
+  width: 100%;
+}
 .carousel-caption {
     z-index: 0;
     padding: 5px;
