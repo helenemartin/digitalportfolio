@@ -45,18 +45,19 @@ h2 {
 .sand {
   position: relative;
   background: url(https://media.giphy.com/media/EXHXTLY7ntczK/giphy.gif);
-  opacity: 0.9;  
+  opacity: 0.9;
+  height: 480px;  
 }
 
 
 .sand-title {
-  position: relative;
+  /*position: relative;*/
   color: white;
   font-size: 2em;
   text-align: center;
   border: 2px solid #fff;
   border-radius: 5px; 
-  min-height: 465px;   
+  min-height: 465px; 
 }
 
 
@@ -138,7 +139,8 @@ h2.featurette-heading {
 
 .item img {
   margin: 0 auto;
-  max-height: 50vw;
+  /*max-height: 50vw;*/
+  height: 100px;
 }
 
 .companies img {
