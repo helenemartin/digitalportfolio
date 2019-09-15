@@ -102,6 +102,7 @@ h2 {
 }
 
 
+
 /******** Art deco boxtext *********/
 /*.container {
   margin-bottom: 50px;
@@ -228,7 +229,7 @@ h2.featurette-heading {
 }
 
 .portrait img {
-  width: 70%;
+  width: 100%;
   margin-right: 5px;
 }
 
@@ -254,7 +255,7 @@ footer {
 	padding: 40px;
 }
 
-@media only screen and (max-width: 480px){
+/*@media only screen and (max-width: 480px){
   .item img {
     max-height: 45vw;
   }
@@ -271,14 +272,16 @@ footer {
   }
   .sand {
     width: 100px;
-
+  }
+  .portrait img {
+    width: 20%;
   }
 
-}
+}*/
 
 @media only screen and (max-width: 991px) {
   .portrait img {
-    width: 30%;
+    width: 80%;
   }
   .col-md-7 {
     padding-top: -20px;
