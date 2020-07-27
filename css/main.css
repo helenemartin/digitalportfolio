@@ -203,6 +203,7 @@ h2.featurette-heading {
   text-align: left;
   font-size: 35px;
   font-weight: 400;
+  padding-top: 50px;
 }
 
 .col-md-7 {
@@ -230,8 +231,8 @@ h2.featurette-heading {
 
 p.lead {
   text-align: justify;
-  font-size: 1.5em;
-  line-height: 50pt;
+  font-size: 1.5rem;
+  line-height: 29pt;
 }
 
 .qr img {
