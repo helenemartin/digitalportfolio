@@ -11,7 +11,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 }*/
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway');
+
 
 .navbar {
   position: fixed;
@@ -28,7 +28,7 @@ body {
 
 h1 {
   color: #494a4f;
-  font-family: 'Libre Baskerville', cursive;
+  font-family: 'Abril Fatface', cursive;
   text-transform: capitalize;
   text-decoration: none;
   text-align: center;
