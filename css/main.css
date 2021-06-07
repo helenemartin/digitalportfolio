@@ -237,20 +237,16 @@ footer {
 
 
 
-@media only screen and (max-width: 991px) {
+@media only screen (min-width: 769px)and (max-width: 991px) {
 
   h1 {
     font-size: 2em;
   }
 
-  .item .img {
-    max-height: 30vh;
-
-  }
-
  .sand {
-  height: 307px;
+  height: 374px;
  }
+
   .banner {
     padding-top: 200px;
   }
@@ -261,5 +257,25 @@ footer {
     padding-top: -20px;
     padding-right: 80px;
   }
+ 
+}
 
+@media only screen and (max-width: 425px) {
+  .sand {
+    height: 173px; 
+  }
+  .banner {
+    padding-top: 420px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 426px)  and (max-width: 768px) {
+  .sand {
+    height: 347px; 
+  }
+  .banner {
+    padding-top: 320px;
+  }
 }
