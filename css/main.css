@@ -244,7 +244,7 @@ footer {
   }
 
  .sand {
-  height: 374px;
+  height: 230px;
  }
 
   .banner {
@@ -260,9 +260,15 @@ footer {
  
 }
 
+@media only screen and (min-width: 426px)  and (max-width: 768px) {
+  .sand {
+    height:390px;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .sand {
-    height: 187px; 
+    height: 250px; 
   }
   .banner {
     padding-top: 420px;
@@ -273,7 +279,7 @@ footer {
 
 @media only screen and (min-width: 426px)  and (max-width: 768px) {
   .sand {
-    height: 347px; 
+    height: 309px; 
   }
   .banner {
     padding-top: 320px;
