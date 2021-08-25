@@ -6,7 +6,7 @@ src: url('fonts/Voyage-Regular.eot'), url('fonts/Voyage-Regular.woff'), url('fon
 }
 
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Avenir', arial, sans-serif;
 }
 
 
@@ -216,12 +216,16 @@ h2.featurette-heading {
 
 p.lead {
   text-align: justify;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 29pt;
 }
 
 .qr img {
   width: 70%;
+}
+
+span.text-muted{
+  font-family: "Voyage-Regular";
 }
 
 strong {
@@ -234,8 +238,25 @@ a {
 }
 
 footer {
-	padding: 40px;
+	/*padding: 40px;*/
+
+  padding-left: 100px;
+  display:inline-block;
 }
+
+ul.nav.navbar-nav.pull-left  li:nth-child(2){
+  /*padding-left: 90px;
+  text-align: center;*/
+  font-family:"Voyage-Regular";
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  padding-left: 150px;
+  text-align: center;
+  color:black;
+  
+}
+
 
 
 
