@@ -215,6 +215,7 @@ h2.featurette-heading {
 }
 
 p.lead {
+  padding-left: 0.9em;
   text-align: justify;
   font-size: 1.8rem;
   line-height: 29pt;
