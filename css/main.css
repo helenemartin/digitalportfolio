@@ -221,6 +221,7 @@ p.lead {
   text-align: justify;
   font-size: 1.8rem;
   line-height: 29pt;
+  letter-spacing: -0.08em;
 }
 
 .qr img {
