@@ -7,6 +7,7 @@ src: url('fonts/Voyage-Regular.eot'), url('fonts/Voyage-Regular.woff'), url('fon
 
 body {
   font-family: 'Avenir', arial, sans-serif;
+  background-color:#ebe1db;
 }
 
 
@@ -15,16 +16,18 @@ body {
   z-index: 1;
   top: 0;
   width: 100%;
+  background-color:#ebe1db;
 
 }
 
 .banner {
   margin: 0 auto;
   padding-top: 165px;
+  background-color: #f5eee9;
 }
 
 h1 {
-  color: #494a4f;
+  color: #b292f3;
   font-family: 'Voyage-Regular', serif;
   text-transform: capitalize;
   text-decoration: none;
@@ -230,10 +233,11 @@ p.lead {
 
 span.text-muted{
   font-family: "Voyage-Regular";
+  color: #b292f3;
 }
 
 strong {
-  color: #f32e34;
+  color: #fc9a7e;
   
 }
 
